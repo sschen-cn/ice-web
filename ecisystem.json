@@ -1,0 +1,28 @@
+{
+	"app": [{
+		"name": "Ice",
+		"script": "server.js",
+		// "instances": 2
+		"env": {
+			"COMMON_VARIABLE": "true"
+		},
+		"env_production": {
+			"NODE_ENV": "production"
+		}
+	}],
+	"deploy": {
+		"production": {
+			"user": "sschen-cn",
+			"host": ["120.26.235.4"],
+			"port": "39999",
+			"ref": "origin/master",
+			"repo": "git@gitee.com:sschenweb/ice.git",
+			"path": "/www/ice/production",
+			"ssh_options": "StrictHostKeyChecking=no",
+			//"post-deploy": "echo 'Deploy Done!'",
+			"env": {
+				"NODE_ENV": "production"
+			}
+		}
+	}
+}

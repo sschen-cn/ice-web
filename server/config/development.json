@@ -1,0 +1,17 @@
+{
+  "db": "mongodb://localhost:27017/ice",
+  "SITE_ROOT_URL": "http://sschen.free.idcfengye.com",
+  "wechat": {
+    "appID": "wxac0b972f0ac731e1",
+    "appSecret": "5b4409da956156f370ec3a991965ed9c",
+    "token": "css"
+  },
+  "qiniu": {
+    "AK": "ke8RPnQ5msZwdnuivJgrXl82u9c8L8OT6QkQ7Kpu",
+    "SK": "RFTLn_8ycZNe_KUAYX3tvrZR1Q12SXgkmMbQ5x34"
+  },
+  "mina": {
+    "appid": "wx0327f63f8ac1ab68",
+    "secret": "fe1063a8d905660fa2f7d71082fc5af4"
+  }
+}
